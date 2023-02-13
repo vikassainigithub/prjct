@@ -1,0 +1,93 @@
+.container{
+        width:1000px;
+        height:1000px;
+        background-color: grey;
+        margin:0 auto;
+               
+        display:flex;
+        flex-wrap:wrap;
+        align-content: space-between;
+        justify-content: space-between;
+}
+.coral{
+        width:1000px;
+        height:200px;
+        /* background-color: coral; */
+        
+         
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-between;      
+}
+.box-1{
+    width:300px;
+    height:200px;
+    background-color: green;
+    background-image: url(../images/pic04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-2{
+    width:650px;
+    height:200px;
+    background-color: rgb(7, 149, 147);
+    background-image: url(../images/pic03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+       width:690px;
+       height:760px;
+       /* background-color: burlywood; */
+       
+        display:flex;
+        flex-wrap:wrap;
+        align-content: space-between;
+}
+.box-3{
+    width:690px;
+    height:360px;
+    background-color: rgb(7, 149, 147);
+    background-image: url(../images/pic01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-4{
+    width:690px;
+    height:360px;
+    /* background-color: rgb(7, 149, 14); */
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.box-5{
+    width:300px;
+    height:360px;
+    background-color: rgb(128, 0, 128);
+    background-image: url(../images/pic02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-6{
+    width:300px;
+    height:360px;
+    background-color: rgb(231, 194, 47);
+    background-image: url(../images/pic03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right{
+    width:270px;
+    height:760px;
+    background-color: rgb(8, 19, 238);
+    background-image: url(../images/pic04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
